@@ -4,13 +4,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+form *{
+    border: solid 1px black;
+}
+
 article{
     overflow: hidden;
     position: relative;
 }
 
 /*C L A S E S*/
+.padding-1{
+    padding: 1em;
+}
+
 .padding-2{
+    padding: 2em;
+}
+
+.margin-1{
+    margin: 1em;
+}
+
+.margin-2{
     margin: 2em;
 }
 
@@ -22,6 +38,11 @@ article{
 
 .text-j{
     text-align: justify;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .grid-2-1{
@@ -73,6 +94,111 @@ article{
 
 .mapa-pequeño{
     display: none;
+}
+
+.gris{
+    background-color: #828282;
+}
+
+.telefono{
+    color: white;
+    text-decoration: none;
+}
+
+.telefono:hover{
+    color: #332f2c;
+    text-decoration: underline;
+}
+
+.facebook{
+    color: white;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    color: #335564;
+}
+
+.twitter{
+    color: white;
+    text-decoration: none;
+}
+
+.twitter:hover{
+    color: #00acee;
+}
+
+.youtube{
+    color: white;
+    text-decoration: none;
+}
+
+.youtube:hover{
+    color: darkred;
+}
+
+.btn-1{
+    padding: 1.5em;
+    text-align: center;
+}
+
+/*I D*/
+#formContacto{
+    border: dashed black 2px;
+}
+
+#caja-contacto{
+    text-align: center;
+}
+
+#contenedor-nombre{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#contenedor-nombre>label{
+    margin-bottom: 1em;
+}
+
+#contenedor-nombre>input{
+    padding: 1em;
+}
+
+#contenedor-correo{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#contenedor-correo>label{
+    margin-bottom: 1em;
+}
+
+#contenedor-correo>input{
+    padding: 1em;
+}
+
+#caja-radio{
+    padding: 2em;
+    border: solid black 1px;
+}
+
+#caja-radio>div>p{
+    text-align: center;
+    font-weight: bold;
+}
+
+#caja-radio>div{
+    margin-bottom: 1em;
+}
+
+#caja-radio>div:last-child{
+    margin: 0%;
+}
+
+#caja-contacto{
+    background-color: #C57236;
 }
 
 @media( max-width: 900px ){

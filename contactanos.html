@@ -15,12 +15,12 @@
     <section class="sidebar">
         <h2>TEATRO NACIONAL DE EL SALVADOR</h2>
         <ul>
-            <li><a href="">Historia</a></li>
+            <li><a href="historia.html">Historia</a></li>
             <li><a href="">Cartelera</a></li>
             <li><a href="">Galeria</a></li>
             <li><a href="">Restaurantes</a></li>
             <li><a href="">Creadores</a></li>
-            <li><a href="">Contactanos</a></li>
+            <li><a href="contactanos.html">Contactanos</a></li>
         </ul>
     </section>
     <section class="content ">
@@ -34,14 +34,86 @@
             <h1 class="titulo-1">Información de contacto</h1>
         </article>
         <article class="grid-2-1">
-            <div class="padding-2">
-                <img src="img/Teatro_Nacional_San_Salvador.jpg" alt="Teatro nacional" class="img-1">
-                <div class="padding-2">
-                    <p>Datos:</p>
+            <div id="caja-contacto">
+                <div class="margin-2">
+                    <img src="img/Teatro_Nacional_San_Salvador.jpg" alt="Teatro nacional" class="img-1 cuadro">
                 </div>
-                <div class="padding-2">
-                    <p>Correo electrónico:</p>
+                <div class="margin-2">
+                    <p>Número teléfonico</p>
                 </div>
+                <div class="margin-2">
+                    <a href="tel: +50325014400" class="telefono"><span class="icon-phone"></span> +503 2501 - 4400</a>
+                </div>
+                <div class="margin-2">
+                    <p>Redes sociales</p>
+                </div>
+                <div class="margin-2">
+                    <a href="https://www.facebook.com/miculturasv/" target="_blank" class="facebook"><span class="icon-facebook2"></span> Ministerio de Cultura de El Salvador</a>
+                </div>
+                <div class="margin-2">
+                    <a href="https://twitter.com/culturasv" target="_blank" class="twitter"><span class="icon-twitter"></span> Ministerio de Cultura</a>
+                </div>
+                <div class="margin-2">
+                    <a href="https://www.youtube.com/channel/UCJ5OeZeSeoJr3Y08cbOq6Kw" target="_blank" class="youtube"><span class="icon-youtube"></span> Ministerio de Cultura de El Salvador</a>
+                </div>
+            </div>
+            <div class="margin-2">
+                <form action="" id="formContacto" class="padding-2">
+                    <!--<div class="padding-2">
+                        <h2>Formulario de contacto</h2>
+                    </div>-->
+                    <div class="grid-2">
+                        <div class="">
+                            <div id="contenedor-nombre">
+                                <label for="">Nombre:</label>
+                                <input type="text" name="" id="" placeholder="Nombre del interesado...">
+                            </div>
+                            <div id="contenedor-correo">
+                                <label for="">Correo electrónico</label>
+                                <input type="text" name="" id="" placeholder="Correo del interesado...">
+                            </div>
+                        </div>
+                        <div class="">
+                            <div id="caja-radio" class="padding-1">
+                                <div>
+                                    <p>Motivo</p>
+                                </div>
+                                <div>
+                                    <input type="radio" name="" id="">
+                                    <label for="">Reservación</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="" id="">
+                                    <label for="">Consulta</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="" id="">
+                                    <label for="">Otros</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="margin-2">
+                        <textarea name="" id="" cols="50" rows="7"></textarea>
+                    </div>
+                    <div class="margin-2">
+                        <button type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" class="btn-1">Enviar solicitud</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+        <article class="padding-2 gris">
+            <h1 class="titulo-1">Ubicación</h1>
+        </article>
+        <article class="grid-2-2 gris">
+            <div class="margin-2 mapa-grande">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.328199591226!2d-89.19259478517012!3d13.698561590381884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6330e9f62b28c3%3A0x560badef73a49649!2sTeatro%20Nacional%20de%20San%20Salvador!5e0!3m2!1ses-419!2ssv!4v1617762041742!5m2!1ses-419!2ssv" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="margin-2 mapa-pequeño">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.328199591226!2d-89.19259478517012!3d13.698561590381884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6330e9f62b28c3%3A0x560badef73a49649!2sTeatro%20Nacional%20de%20San%20Salvador!5e0!3m2!1ses!2ssv!4v1617846603789!5m2!1ses!2ssv" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="margin-2 direccion">
+                <p class="text-j">Edif. A-5 Plan Maestro, Centro de Gobierno, Alameda Juan Pablo II y Calle Guadalupe</p>
             </div>
         </article>
         <footer>
