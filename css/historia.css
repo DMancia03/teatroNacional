@@ -67,6 +67,14 @@ article{
     width: 150%;
 }
 
+.mapa-grande{
+    display: block;
+}
+
+.mapa-pequeño{
+    display: none;
+}
+
 @media( max-width: 900px ){
     .grid-2-1, .grid-2-2{
         display: flex;
@@ -75,6 +83,15 @@ article{
 
     .direccion{
         display: none;
+    }
+
+    .mapa-grande{
+        display: none;
+    }
+
+    .mapa-pequeño{
+        display: block;
+        margin: auto;
     }
 
     p{
