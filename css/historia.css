@@ -4,10 +4,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-form *{
-    border: solid 1px black;
-}
-
 article{
     overflow: hidden;
     position: relative;
@@ -197,8 +193,23 @@ article{
     margin: 0%;
 }
 
+#caja-radio>div>input{
+    margin-right: 1em;
+}
+
 #caja-contacto{
     background-color: #C57236;
+}
+
+#caja-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja-consulta>textarea{
+    padding: 1em;
+    width: 95%;
 }
 
 @media( max-width: 900px ){

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/historia.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <!--NO TOCAR NADA DE LAS CLASES YA PUESTAS-->
@@ -65,12 +66,12 @@
                     <div class="grid-2">
                         <div class="">
                             <div id="contenedor-nombre">
-                                <label for="">Nombre:</label>
-                                <input type="text" name="" id="" placeholder="Nombre del interesado...">
+                                <label for="txtNombre">Nombre:</label>
+                                <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre del interesado..." required autofocus>
                             </div>
                             <div id="contenedor-correo">
-                                <label for="">Correo electrónico</label>
-                                <input type="text" name="" id="" placeholder="Correo del interesado...">
+                                <label for="txtCorreo">Correo electrónico</label>
+                                <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo del interesado..." required>
                             </div>
                         </div>
                         <div class="">
@@ -79,25 +80,25 @@
                                     <p>Motivo</p>
                                 </div>
                                 <div>
-                                    <input type="radio" name="" id="">
-                                    <label for="">Reservación</label>
+                                    <input type="radio" value="Reservación" name="rdbMotivo" id="rdbMotivo-1" required>
+                                    <label for="rdbMotivo-1">Reservación</label>
                                 </div>
                                 <div>
-                                    <input type="radio" name="" id="">
-                                    <label for="">Consulta</label>
+                                    <input type="radio" value="Consulta" name="rdbMotivo" id="rdbMotivo-2" required>
+                                    <label for="rdbMotivo-2">Consulta</label>
                                 </div>
                                 <div>
-                                    <input type="radio" name="" id="">
-                                    <label for="">Otros</label>
+                                    <input type="radio" value="Otros" name="rdbMotivo" id="rdbMotivo-3" required>
+                                    <label for="rdbMotivo-3">Otros</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="margin-2">
-                        <textarea name="" id="" cols="50" rows="7"></textarea>
+                    <div id="caja-consulta" class="margin-2">
+                        <textarea name="txtDescripcion" id="txtDescripcion" maxlength="75" rows="5" placeholder="Descripción de su consulta..." required></textarea>
                     </div>
-                    <div class="margin-2">
-                        <button type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" class="btn-1">Enviar solicitud</button>
+                    <div id="caja-btn" class="margin-2">
+                        <button type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" class="btn-1" onclick="enviarConsulta()">Enviar solicitud</button>
                     </div>
                 </form>
             </div>
