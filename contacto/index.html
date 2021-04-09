@@ -67,18 +67,16 @@
                         <div class="">
                             <div id="contenedor-nombre">
                                 <label for="txtNombre">Nombre:</label>
-                                <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre del interesado..." required autofocus>
+                                <input type="text" name="txtNombre" id="txtNombre" pattern="[a-zA-zñÑáéíóúÁÉÍÓÚ, ]{2,50}" maxlenght="50" placeholder="Nombre del interesado..." required autofocus>
                             </div>
                             <div id="contenedor-correo">
                                 <label for="txtCorreo">Correo electrónico</label>
-                                <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo del interesado..." required>
+                                <input type="email" name="txtCorreo" id="txtCorreo" pattern="[a-zA-zñÑáéíóúÁÉÍÓÚ., ]{1,20}[@][a-z]{1,5}[.][a-z]{1,5}" placeholder="Correo del interesado..." required>
                             </div>
                         </div>
                         <div class="">
-                            <div id="caja-radio" class="padding-1">
-                                <div>
-                                    <p>Motivo</p>
-                                </div>
+                            <fieldset id="caja-radio" class="padding-1">
+                                <legend>Motivo</legend>
                                 <div>
                                     <input type="radio" value="Reservación" name="rdbMotivo" id="rdbMotivo-1" required>
                                     <label for="rdbMotivo-1">Reservación</label>
@@ -91,7 +89,7 @@
                                     <input type="radio" value="Otros" name="rdbMotivo" id="rdbMotivo-3" required>
                                     <label for="rdbMotivo-3">Otros</label>
                                 </div>
-                            </div>
+                            </fieldset>
                         </div>
                     </div>
                     <div id="caja-consulta" class="margin-2">
