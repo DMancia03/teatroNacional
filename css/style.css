@@ -69,10 +69,38 @@ body{
     font-size: 5em;
     padding: 0.1em 0 0;
 }
+
+/*F O O T E R*/
 footer{
     background-color: #2F3945;
     color: white;
     text-align: center;
     font-family: 'Raleway';
     padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#que-es *, #contacto *, #tradicional *{
+    margin: 1em;
+}
+
+#que-es>p{
+    text-align: justify;
+}
+
+.telefono, .facebook, .twitter, .youtube{
+    color: white;
+    text-decoration: none;
+}
+
+.telefono:hover, .facebook:hover, .twitter:hover, .youtube:hover{
+    text-decoration: underline;
+}
+
+@media( max-width: 900px ){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
