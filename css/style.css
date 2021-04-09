@@ -89,12 +89,12 @@ footer{
     text-align: justify;
 }
 
-.telefono, .facebook, .twitter, .youtube{
+.telefonoF, .facebookF, .twitterF, .youtubeF{
     color: white;
     text-decoration: none;
 }
 
-.telefono:hover, .facebook:hover, .twitter:hover, .youtube:hover{
+.telefonoF:hover, .facebookF:hover, .twitterF:hover, .youtubeF:hover{
     text-decoration: underline;
 }
 
