@@ -104,4 +104,30 @@ footer{
     text-align: center;
     font-family: 'Raleway';
     padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#que-es *, #contacto *, #tradicional *{
+    margin: 1em;
+}
+
+#que-es>p{
+    text-align: justify;
+}
+
+.telefonoF, .facebookF, .twitterF, .youtubeF{
+    color: white;
+    text-decoration: none;
+}
+
+.telefonoF:hover, .facebookF:hover, .twitterF:hover, .youtubeF:hover{
+    text-decoration: underline;
+}
+
+@media( max-width: 900px ){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
