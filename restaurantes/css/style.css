@@ -91,7 +91,7 @@ p{
     font-family: 'Raleway';
     text-align: center;
 }
-.ResName p,a{
+.ResName p, .ResName a{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }

@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 article{
     overflow: hidden;
     position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*C L A S E S*/
@@ -102,8 +99,7 @@ article{
 }
 
 .telefono:hover{
-    color: #332f2c;
-    text-decoration: underline;
+    color: #737373;
 }
 
 .facebook{
@@ -112,7 +108,7 @@ article{
 }
 
 .facebook:hover{
-    color: #335564;
+    color: #737373;
 }
 
 .twitter{
@@ -136,15 +132,44 @@ article{
 .btn-1{
     padding: 1.5em;
     text-align: center;
+    background-color: #194350;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: 500ms;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 17px 0px rgba(0,0,0,0.62), -1px -1px 17px 0px rgba(0,0,0,0.62);
+    transition: 500ms;
+}
+
+.gris-2{
+    background-color: #536162;
 }
 
 /*I D*/
-#formContacto{
-    border: dashed black 2px;
-}
-
 #caja-contacto{
     text-align: center;
+    background-color: #194350;
+    border-radius: 10px;
+    box-shadow: 5px 5px 17px 0px rgba(0,0,0,0.62), -5px -5px 17px 0px rgba(0,0,0,0.62);
+}
+
+#caja-contacto>div>img{
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: #424642 solid 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#formContacto{
+    /**/
+    background-color: #737373;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 2px 2px 17px 0px rgba(0,0,0,0.62), -2px -2px 17px 0px rgba(0,0,0,0.62);
 }
 
 #contenedor-nombre{
@@ -157,8 +182,17 @@ article{
     margin-bottom: 1em;
 }
 
-#contenedor-nombre>input{
+#contenedor-nombre>input, #contenedor-correo>input{
     padding: 1em;
+    background-color: #737373;
+    border: none;
+    border-bottom: #194350 solid 3px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#contenedor-nombre>input::placeholder, #contenedor-correo>input::placeholder{
+    color: white;
 }
 
 #contenedor-correo{
@@ -171,13 +205,10 @@ article{
     margin-bottom: 1em;
 }
 
-#contenedor-correo>input{
-    padding: 1em;
-}
-
 #caja-radio{
     padding: 2em;
-    border: solid black 1px;
+    border: solid #194350 3px;
+    border-radius: 5px;
 }
 
 #caja-radio>div>p{
@@ -197,10 +228,6 @@ article{
     margin-right: 1em;
 }
 
-#caja-contacto{
-    background-color: #C57236;
-}
-
 #caja-btn{
     display: flex;
     justify-content: center;
@@ -210,6 +237,16 @@ article{
 #caja-consulta>textarea{
     padding: 1em;
     width: 95%;
+    background-color: #737373;
+    border: none;
+    border-bottom: #194350 solid 3px;
+    outline: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#caja-consulta>textarea::placeholder{
+    color: white;
 }
 
 #caja-radio>legend{
