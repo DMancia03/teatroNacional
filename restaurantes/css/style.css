@@ -73,9 +73,10 @@ body{
     display: grid;
     grid-template-columns: repeat(3,2fr);
     grid-gap: 30px;
-    margin: 5px;
+    padding: 5px;
     margin-top: 30px;
     width: 100%;
+    box-sizing: border-box;
 }
 h1{
     font-family: 'Raleway';
