@@ -15,9 +15,11 @@
 }
 .text-justify{
     text-align: justify;
+    font-family: Segoe UI;
 }
 .text-b{
     font-weight: bold;
+    font-family: Segoe UI;
 }
 #HADES{
     background-color: #D99923;
