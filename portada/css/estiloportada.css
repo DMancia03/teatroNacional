@@ -24,8 +24,9 @@
     display: flex;
     flex-direction: row;
 }
+/*Responsive*/
 @media(max-width: 1200px){
-    header{
+     header{
         flex-direction: column;
     }
     header div{
