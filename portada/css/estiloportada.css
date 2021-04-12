@@ -21,7 +21,7 @@
     font-weight: bold;
     font-family: Segoe UI;
 }
-#HADES{
+#Detalles{
     background-color: #D99923;
     display: flex;
     flex-direction: row;
@@ -38,9 +38,9 @@
         width: 100%;
         display: none;
     }
-    #HADES{
+    #Detalles{
         flex-direction: column;
     }
-    #HADES img{
+    #Detalles img{
         width: 100%;
     }
