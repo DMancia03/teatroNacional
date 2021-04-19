@@ -260,7 +260,8 @@ article{
     }
 
     .direccion{
-        display: none;
+        width: 80%;
+        text-align: center;
     }
 
     .mapa-grande{
@@ -283,7 +284,8 @@ article{
     }
 
     .direccion{
-        display: none;
+        width: 80%;
+        text-align: center;
     }
 
     p{
