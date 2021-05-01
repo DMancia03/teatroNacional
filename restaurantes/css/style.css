@@ -127,6 +127,10 @@ p{
 .ResName h2{
     font-family: 'Raleway';
     text-align: center;
+    padding: 1em;
+}
+.ResName p{
+  padding: 1em;
 }
 .ResName p, .ResName a{
     font-family: Arial, Helvetica, sans-serif;
