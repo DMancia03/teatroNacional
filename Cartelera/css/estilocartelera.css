@@ -1,0 +1,97 @@
+#titulo{
+  color: black;
+  margin-top: 2vh;
+  font-size: 42px;
+  position: relative;
+  text-align: center;
+  border-bottom: yellow 0.7vw solid;
+  margin-right: 33vw;
+  margin-left: 37vw;
+  font-family: 'Raleway';
+  margin: 0.5em;
+}
+.img-1{
+    display: block;
+    margin: auto;
+    width: 50vw;
+    height: 28vw;
+}
+.padding-1{
+    margin: 0.5em;
+}
+.title-1{
+    color: #590C0C;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Raleway';
+}
+.text-justify{
+    text-align: justify;
+    font-family: Segoe UI;
+    color:black;
+}
+.text-b{
+    font-weight: bold;
+    font-family: Segoe UI;
+    color:black;
+}
+#Detalles{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
+.img-2{
+    display: block;
+    margin: auto;
+    width: 50vw;
+    margin-top: 0.5em;
+    height: 28vw;
+}
+#boton {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 18.5%;
+  height: 18.5%;
+  margin-right: 1%;
+  line-height: 3;
+  margin-left: 21em;
+  color: black;
+  font-size: 84%;
+  text-align: center;
+}
+#boton:link, a:visited, a:focus {
+  background: orange;
+}
+
+#boton:hover {
+  background: #0792F5;
+}
+
+#boton:active {
+  background: red;
+  color: white;
+}
+/*Responsive*/
+@media(max-width: 1200px){
+     header{
+        flex-direction: column;
+    }
+    header div{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        display: none;
+    }
+    #Detalles{
+        flex-direction: column;
+    }
+    #Detalles img{
+        width: 100%;
+    }
+    #boton{
+    	width: 30%;
+    }
+}
