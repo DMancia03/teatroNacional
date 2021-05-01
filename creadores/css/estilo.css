@@ -18,6 +18,7 @@ body{
     display: grid;
     display: grid;
     grid-template-columns: repeat(5,1fr);
+    margin-bottom: 5vh;
 }
 @media(max-width: 1130px){
     #caja1{
@@ -145,6 +146,37 @@ body{
     }
     #caja5{
         margin-left: 35vw;
+    }
+}
+@media(max-width: 530px){
+    #creadores{
+        font-size: 250%;
+        text-align: center;
+        margin-bottom: -2%;
+        margin-top: 2%;
+        border-bottom: yellow 0.6vw solid;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #caja1{
+        margin-left: 20vw;
+    }
+    #caja3{
+        margin-left: 20vw;
+    }
+    #caja2{
+        margin-left: 20vw;
+    }
+    #caja4{
+        margin-left: 20vw;
+    }
+    #caja5{
+        margin-left: 20vw;
     }
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
