@@ -14,721 +14,138 @@ body{
     margin-right: 36%;
     margin-left: 40%;
 }
-#caja1{
-    margin-left: 5vw;
-    margin-top: 9vh;
-    margin-right: 67vw;
-}
-#caja2{
-    margin-left: 41vw;
-    margin-top: -50.8vh;
-    margin-right: 0vw;
-   
-}
-#caja3{
-    margin-left: 77vw;
-    margin-top: -51vh;
-    margin-right: 0vw;
-}
-#caja4{
-    margin-left: 23vw;
-    margin-top: -50.8vh;
-    margin-right: 52vw;
-
-}
-#caja5{
-    margin-left: 59vw;
-    margin-top: -51vh;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
-}
 #crear{
     display: grid;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
-@media screen and (max-width: 1312px){
-  #caja1{
-    margin-left: 8%;
-    margin-top: 7%;
-    margin-right: 66%;
-
-}
-#caja2{
-    margin-left: 38%;
-    margin-top: -33%;
-    margin-right: 36%;
-    
-}
-#caja3{
-    margin-left: 70%;
-    margin-top: -33%;
-    margin-right: 4%;
-    
-}
-#caja4{
-    margin-left: 23%;
-    margin-top: 5%;
-    margin-right: 51%;
-    
-}
-#caja5{
-    margin-left: 55%;
-    margin-top: -33%;
-    margin-right: 19%;
-    margin-bottom: 5%;
-   
-}
-}
-@media screen and (max-width: 1311px){
-  #caja1{
-    margin-left: 3vw;
-    margin-top: 8vh;
-    margin-right: 66vw;
-    
-
-}
-#caja2{
-    margin-left: 41vw;
-    margin-top: -51vh;
-    margin-right: 36vw;
-}
-#caja3{
-    margin-left: 79vw;
-    margin-top: -51vh;
-    margin-right: 4vw;
-    
-}
-#caja4{
-    margin-left: 22vw;
-    margin-top: -51vh;
-    margin-right: 51vw;
-   
-}
-#caja5{
-    margin-left: 60vw;
-    margin-top: -51vh;
-    margin-right: 19vw;
-    margin-bottom: 5vh;
-    
-}
-}
-@media screen and (max-width: 1288px) and (min-width:1258px){
-  #caja1{
-    margin-left: 2vw;
-    margin-top: 7vh;
-    margin-right: 66vw;
-  
-
-}
-#caja2{
-    margin-left: 42vw;
-    margin-top: -52vh;
-    margin-right: 36vw;
-  
-}
-#caja3{
-    margin-left: 82vw;
-    margin-top: -52vh;
-    margin-right: 0vw;
-   
-}
-#caja4{
-    margin-left: 22vw;
-    margin-top: -52vh;
-    margin-right: 51vw;
-    
-}
-#caja5{
-    margin-left: 62vw;
-    margin-top: -52vh;
-    margin-right: 19vw;
-    margin-bottom: 5vh;
-    
-}
-}
-
-@media screen and (max-width: 1256px){
-  #caja1{
-    margin-left: 15vw;
-    margin-top: 14vh;
-    margin-right: 65vw;
-
-}
-#caja2{
-    margin-left: 43vw;
-    margin-top: -50vh;
-    margin-right: 35vw;
-  
-}
-#caja3{
-    margin-left: 70vw;
-    margin-top: -50vh;
-    margin-right: 3vw;
-    
-}
-#caja4{
-    margin-left: 29vw;
-    margin-top: 5vh;
-    margin-right: 50vw;
-    
-}
-#caja5{
-    margin-left: 58vw;
-    margin-top: -51vh;
-    margin-right: 18vw;
-    margin-bottom: 5vh;
-    
-}
-}
-/*@media screen and (max-width: 1228px){
-  #caja1{
-    margin-left: 15vw;
-    margin-top: 7vh;
-    margin-right: 65vw;
-    
-
-}
-#caja2{
-    margin-left: 38vw;
-    margin-top: -35vh;
-    margin-right: 35vw;
-    
-}
-#caja3{
-    margin-left: 70vw;
-    margin-top: -35vh;
-    margin-right: 3vw;
-    
-}
-#caja4{
-    margin-left: 23vw;
-    margin-top: 5vh;
-    margin-right: 50vw;
-}   
-#caja5{
-    margin-left: 55vw;
-    margin-top: -35vh;
-    margin-right: 18vw;
-    margin-bottom: 5vh;
-   
-} 
-}
-@media screen and (max-width: 1208px){
-  #caja1{
-    margin-left: 8%;
-    margin-top: 7%;
-    margin-right: 64%;
-  
-
-}
-#caja2{
-    margin-left: 38%;
-    margin-top: -36%;
-    margin-right: 34%;
-    
-}
-#caja3{
-    margin-left: 70%;
-    margin-top: -36%;
-    margin-right: 2%;
-   
-}
-#caja4{
-    margin-left: 23%;
-    margin-top: 5%;
-    margin-right: 49%;
-    
-}
-#caja5{
-    margin-left: 55%;
-    margin-top: -36%;
-    margin-right: 17%;
-    margin-bottom: 5%;
-    
-} 
-}
-@media screen and (max-width: 1170px){
-  #caja1{
-    margin-left: 8%;
-    margin-top: 7%;
-    margin-right: 65%;
-
-}
-#caja2{
-    margin-left: 38%;
-    margin-top: -35%;
-    margin-right: 35%;
-}
-#caja3{
-    margin-left: 70%;
-    margin-top: -35%;
-    margin-right: 3%;
-}
-#caja4{
-    margin-left: 23%;
-    margin-top: 5%;
-    margin-right: 50%;
-}
-#caja5{
-    margin-left: 55%;
-    margin-top: -35%;
-    margin-right: 18%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 1208px) {
+@media(max-width: 1130px){
     #caja1{
-        margin-left: 8%;
-        margin-top: 7%;
-        margin-right: 65%;
-    
+        margin-left: 9vw;
     }
     #caja2{
-        margin-left: 38%;
-        margin-top: -35%;
-        margin-right: 35%;
-    }
-    #caja3{
-        margin-left: 70%;
-        margin-top: -35%;
-        margin-right: 3%;
+        margin-left: 4vw;
     }
     #caja4{
-        margin-left: 23%;
-        margin-top: 5%;
-        margin-right: 50%;
+        margin-left: 10vw;
     }
     #caja5{
-        margin-left: 55%;
-        margin-top: -35%;
-        margin-right: 18%;
-        margin-bottom: 5%;
-    }   
+        margin-left: 4vw;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
-@media screen and (max-width: 1208px) {
-  #caja1{
-    margin-left: 8%;
-    margin-top: 7%;
-    margin-right: 63%;
-
-}
-#caja2{
-    margin-left: 38%;
-    margin-top: -37%;
-    margin-right: 33%;
-}
-#caja3{
-    margin-left: 70%;
-    margin-top: -37%;
-    margin-right: 1%;
-}
-#caja4{
-    margin-left: 23%;
-    margin-top: 5%;
-    margin-right: 48%;
-}
-#caja5{
-    margin-left: 55%;
-    margin-top: -37%;
-    margin-right: 16%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 1094px){
-  #caja1{
-    margin-left: 2%;
-    margin-top: 7%;
-    margin-right: 66%;
-
-}
-#caja2{
-    margin-left: 38%;
-    margin-top: -40%;
-    margin-right: 31%;
-}
-#caja3{
-    margin-left: 70%;
-    margin-top: -40%;
-    margin-right: 0%;
-}
-#caja4{
-    margin-left: 23%;
-    margin-top: 5%;
-    margin-right: 46%;
-}
-#caja5{
-    margin-left: 55%;
-    margin-top: -40%;
-    margin-right: 14%;
-    margin-bottom: 5%;
-} 
-}*/
-@media screen and (max-width: 974px){
+@media(max-width: 930px){
     #caja1{
-        margin-left: 2vw;
-        margin-top: 5vh;
-        margin-right: 70vw;
+        margin-left: 9vw;
     }
     #caja2{
-        margin-left: 38vw;
-        margin-top: -37vh;
-        margin-right: 33vw;
-    }
-    #caja3{
-        margin-left: 70vw;
-        margin-top: -37vh;
-        margin-right: 1vw;
+        margin-left: 4vw;
     }
     #caja4{
-        margin-left: 23vw;
-        margin-top: 5vh;
-        margin-right: 48vw;
+        margin-left: 9vw;
     }
     #caja5{
-        margin-left: 55vw;
-        margin-top: -37vh;
-        margin-right: 16vw;
-        margin-bottom: 5vh;
-    } 
+        margin-left: 4vw;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(max-width: 900px){
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(max-width: 918px){
+    #caja1{
+        margin-left: 5vw;
+    }
+    #caja2{
+        margin-left: 4vw;
+    }
+    #caja4{
+        margin-left: 5vw;
+    }
+    #caja5{
+        margin-left: 4vw;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(max-width: 800px){
+    #creadores{
+        font-size: 250%;
+        text-align: center;
+        margin-bottom: -2%;
+        margin-top: 2%;
+        border-bottom: yellow 0.6vw solid;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #caja1{
+        margin-left: 15vw;
+    }
+    #caja3{
+        margin-left: 15vw;
+    }
+    #caja2{
+        margin-left: 4vw;
+    }
+    #caja5{
+        margin-left: 15vw;
+    }
+}
+@media(max-width: 500px){
+    #crear{
+        display: grid;
+        margin-right: 5vw;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
-}
-@media screen and (max-width: 977px){
-  #caja1{
-    margin-left: 5vw;
-    margin-top: 7vh;
-    margin-right: 70vw;
-}
-#caja2{
-    margin-left: 38vw;
-    margin-top: -50vh;
-    margin-right: 33vw;
-}
-#caja3{
-    margin-left: 70vw;
-    margin-top: -50vh;
-    margin-right: 1vw;
-}
-#caja4{
-    margin-left: 23vw;
-    margin-top: 5vh;
-    margin-right: 48vw;
-}
-#caja5{
-    margin-left: 55vw;
-    margin-top: -50vh;
-    margin-right: 16vw;
-    margin-bottom: 5vh;
-} 
-}
-/*@media screen and (max-width: 929px){
-  #caja1{
-    margin-left: 8%;
-    margin-top: 7%;
-    margin-right: 55%;
-}
-#caja2{
-    margin-left: 50%;
-    margin-top: -47%;
-    margin-right: 14%;
-}
-#caja3{
-    margin-left: 50%;
-    margin-top: 5%;
-    margin-right: 14%;
-}
-#caja4{
-    margin-left: 8%;
-    margin-top: -47%;
-    margin-right: 55%;
-}
-#caja5{
-    margin-left: 30%;
-    margin-top: 2%;
-    margin-right: 33%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 817px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 23%;
-    margin-left: 23%;
-}
-  #caja1{
-    margin-left: 7%;
-    margin-top: 7%;
-    margin-right: 40%;
-
-}
-#caja2{
-    margin-left: 18%;
-    margin-top: -5%;
-    margin-right: 13%;
-}
-#caja3{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja4{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja5{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-}  
-}*/
-@media screen and (max-width: 815px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 23%;
-    margin-left: 23%;
-}
-  #caja1{
-    margin-left: 35%;
-    margin-top: 7%;
-    margin-right: 30%;
-
-}
-#caja2{
-    margin-left: 35%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja3{
-    margin-left: 35%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja4{
-    margin-left: 35%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja5{
-    margin-left: 35%;
-    margin-top: 2%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-
-} 
-}/*
-@media screen and (max-width: 798px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 23%;
-    margin-left: 23%;
-}
-  #caja1{
-    margin-left: 28%;
-    margin-top: 7%;
-    margin-right: 30%;
-
-}
-#caja2{
-    margin-left: 28%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja3{
-    margin-left: 28%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja4{
-    margin-left: 28%;
-    margin-top: 2%;
-    margin-right: 30%;
-}
-#caja5{
-    margin-left: 28%;
-    margin-top: 2%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 607px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 23%;
-    margin-left: 23%;
-}
-  #caja1{
-    margin-left: 20%;
-    margin-top: 7%;
-    margin-right: 24%;
-}
-#caja2{
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-right: 24%;
-}
-#caja3{
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-right: 24%;
-}
-#caja4{
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-right: 24%;
-}
-#caja5{
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-right: 24%;
-    margin-bottom: 5%;
-}  
-}
-@media screen and (max-width: 494px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 25%;
-    margin-left: 25%;
-}
-  #caja1{
-    margin-left: 18%;
-    margin-top: 7%;
-    margin-right: 13%;
-}
-#caja2{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja3{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja4{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja5{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-} 
-}*/
-@media screen and (max-width: 494px){
-  #creadores{
-    font-size: 250%;
-    text-align: center;
-    margin-bottom: -2%;
-    margin-top: 2%;
-    border-bottom: yellow 0.6vw solid;
-    margin-right: 25%;
-    margin-left: 25%;
-}
-  #caja1{
-    margin-left: 40%;
-    margin-top: 7%;
-    margin-right: 13%;
-}
-#caja2{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja3{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja4{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja5{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 494px){
-  #caja1{
-    margin-left: 18%;
-    margin-top: 7%;
-    margin-right: 13%;
-}
-#caja2{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja3{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja4{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja5{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-} 
-}
-@media screen and (max-width: 487px){
- #caja1{
-    margin-left: 18%;
-    margin-top: 7%;
-    margin-right: 13%;
-
-}
-#caja2{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja3{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja4{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-}
-#caja5{
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-right: 13%;
-    margin-bottom: 5%;
-} 
+@media(max-width: 680px){
+    #creadores{
+        font-size: 250%;
+        text-align: center;
+        margin-bottom: -2%;
+        margin-top: 2%;
+    }
+    #crear{
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #caja1{
+        margin-left: 35vw;
+    }
+    #caja3{
+        margin-left: 35vw;
+    }
+    #caja2{
+        margin-left: 35vw;
+    }
+    #caja4{
+        margin-left: 35vw;
+    }
+    #caja5{
+        margin-left: 35vw;
+    }
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 figure.snip0015 {
@@ -739,6 +156,7 @@ figure.snip0015 {
   min-width: 150px;
   max-width: 220px;
   max-height: 380px;
+  margin-top: 9vh;
   width: 100%;
   background: #a19b9b;
   text-align: center;
