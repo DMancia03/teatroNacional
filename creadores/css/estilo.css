@@ -20,6 +20,12 @@ body{
     grid-template-columns: repeat(5,1fr);
     margin-bottom: 5vh;
 }
+    #caja1{
+        margin-left: 3vw;
+    }
+    #caja5{
+        margin-left: 3vw;
+    }
 @media(max-width: 1130px){
     #caja1{
         margin-left: 9vw;
