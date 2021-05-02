@@ -138,6 +138,7 @@
     }
     #Detalles img{
         width: 100%;
+      height: 200%;
     }
     #Detalles2{
         flex-direction: column;
