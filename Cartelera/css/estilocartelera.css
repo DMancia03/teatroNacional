@@ -146,11 +146,14 @@
         width: 100%;
     }
     #boton{
-    	width: 30%;
-      margin-left: 10em;
+    	width: 40%;
+      margin-left: 7em;
     }
     #boton2{
-      width: 30%;
-      margin-left: 10em;
+      width:40%;
+      margin-left: 7em;
+    }
+    .titulo{
+      font-size: 2.3em;
     }
 }
