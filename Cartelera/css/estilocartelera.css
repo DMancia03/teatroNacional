@@ -147,8 +147,10 @@
     }
     #boton{
     	width: 30%;
+      margin-left: 10em;
     }
     #boton2{
       width: 30%;
+      margin-left: 10em;
     }
 }
