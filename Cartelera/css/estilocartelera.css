@@ -85,7 +85,7 @@
   font-size: 84%;
   text-align: center;
 }
-#boton:link, a:visited, a:focus {
+#boton:link  {
   background: orange;
 }
 
@@ -94,7 +94,6 @@
 }
 
 #boton:active {
-  background: red;
   color: white;
 }
 #boton2 {
@@ -110,7 +109,7 @@
   font-size: 84%;
   text-align: center;
 }
-#boton2:link, a:visited, a:focus {
+#boton2:link  {
   background: orange;
 }
 
