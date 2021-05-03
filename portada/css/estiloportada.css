@@ -11,6 +11,9 @@
 .padding-1{
     margin: 2em;
 }
+nav{
+    height:100%;
+}
 .title-1{
     color: #590C0C;
     text-align: center;
