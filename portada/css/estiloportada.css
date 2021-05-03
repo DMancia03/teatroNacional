@@ -42,7 +42,7 @@ nav{
     margin-top: -0.5em;
 }
 
-footer h1{
+footer h1, .normalizar-texto{
     font-size: 1.5em;
 }
 footer a:hover{
